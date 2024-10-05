@@ -3,7 +3,7 @@ services:
     nwserver:
         hostname: nwserver
         container_name: nwserver
-        image: ${NWSERVER_IMAGE}:${NWSERVER_TAG}
+        image: ${NWSERVER_IMAGE:-nwnxee/unified}:${NWSERVER_TAG:-build8193.36.12}
         env_file: ./config/nwserver.env
         restart: unless-stopped
         stdin_open: true
