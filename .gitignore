@@ -1,0 +1,33 @@
+# Ignore packed files
+*.erf
+*.hak
+*.mod
+*.tlk
+
+# Ignore the nasher directory
+.nasher/
+.git/
+
+ambient/
+cache/
+crashreport/
+dmvault/
+hak/
+localvault/
+logs/
+modules/
+movies/
+music/
+nwsync/
+override/
+portraits/
+saves/
+servervault/
+tempclient/
+tlk/
+
+cryptographic_secret
+nwnpid
+*.dmp
+*.log
+
